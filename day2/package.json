@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch",
+        "test": "vitest run --coverage"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@types/node": "^26.6.2"
+    }
+}
