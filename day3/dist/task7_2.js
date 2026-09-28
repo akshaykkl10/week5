@@ -1,3 +1,4 @@
+import { validateHeaderName } from "node:http";
 export class CountChanger {
     target;
     constructor(target) {
